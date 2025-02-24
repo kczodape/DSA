@@ -59,8 +59,9 @@ public class LL {
     }
 }
 
-- **addLast()**: Adds an element at the last.
 
+
+- **addLast()**: Adds an element at the last.
 ## 📌 Code
 ```java
     public void addLast(int data){
