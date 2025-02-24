@@ -58,3 +58,19 @@ public class LL {
         list.display();
     }
 }
+
+- **addLast()**: Adds an element at the last.
+
+## 📌 Code
+```java
+    public void addLast(int data){
+        Node newNode = new Node(data);
+        if (head == null){
+            head = tail = newNode;
+        }else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        size++;
+    }
+
